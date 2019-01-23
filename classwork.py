@@ -1,6 +1,6 @@
 def main():
-    # problem1()
-    problem2()
+    problem1()
+    # problem2()
 
 
 # Create a function that has a loop that quits with q. If the user doesn't enter q, ask them to input another string.
@@ -8,9 +8,10 @@ def main():
 def problem1():
     while (True):
         userInput = input("Enter something, Enter q to quit ")
-        if userInput.lower == "Q":
+        # print(userInput.upper())
+        if userInput.upper() == "Q":
             break
-
+    
 
 # Write 2 functions: exercise2() and exercise2_helper(num1, num2, num3. operation)
 # The function exercise2_helper(num1, num2, num3) should expect 3 numbers, 
