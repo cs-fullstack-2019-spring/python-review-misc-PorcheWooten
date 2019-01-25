@@ -22,6 +22,7 @@ def problem1():
 # AVG - Return the average of the 3 numbers
 # The operation and the returned value should then be printed out back in the main exercise2() function. Return INVALID OPERATION if an operation passed in that isn't supported. HINT: Use switch/case
 def problem2():
+    # KEY: Nice addition letting the user enter the 3 values!!!
     num1= int(input("Enter number 1 "))
     num2 = int(input("Enter number 2 "))
     num3 = int(input("Enter number 3 "))
